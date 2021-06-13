@@ -14,6 +14,11 @@ import java.util.stream.IntStream;
 
 public class Refrence {
 
+    /**
+     * 测试用例
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
 
     //        ThreadLocal<Object> threadLocal = new ThreadLocal<>();
