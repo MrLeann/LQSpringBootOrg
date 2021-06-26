@@ -8,6 +8,8 @@ class LqSpringBootOrgApplicationTests {
 
     @Test
     void contextLoads() {
+
+
     }
 
 }

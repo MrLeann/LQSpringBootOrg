@@ -10,4 +10,7 @@ public class LqSpringBootOrgApplication {
         SpringApplication.run(LqSpringBootOrgApplication.class, args);
     }
 
+
+
+
 }
