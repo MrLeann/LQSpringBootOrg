@@ -1,12 +1,7 @@
 package com.lq.lqspringbootorg.org;
 
-import javafx.collections.ObservableList;
-
 import java.io.IOException;
-import java.lang.ref.PhantomReference;
-import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
-import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -24,7 +19,8 @@ public class Refrence {
      */
     public static void main(String[] args) throws IOException {
         
-        ThreadLocal<Object> threadLocal = new ThreadLocal<>();
+        ThreadLocal<Object> threadLocal;
+        threadLocal = new ThreadLocal<>();
         //        threadLocal.set(123);
         //        threadLocal  = null;
         Object o33 = new Object();
